@@ -55,15 +55,27 @@
 							</a>
 						</li>
 				</ul>
-				<div class="mobile-menu">
-				<button class="mobile-menu__button" type="button">
-					<svg class="mobile-menu__icon">
+				
+				<button class="mobile-menu__open-button js-open-menu" type="button">
+					<svg class="mobile-menu__open-icon">
 						<use href="./images/icons.svg#icon-menu_40px"></use>
 					</svg>
 				</button>
-				</div>
+				<nav  class="js-menu-container mobile-menu__container">
+					<button class="mobile-menu__close-button js-close-menu" type="button">
+						<svg class="mobile-menu__close-icon">
+							<use href="./images/icons.svg#icon-close-black-18dp-2-1"></use>
+						</svg>
+					</button>
+					<ul class="mobile-menu__list">
+						<li class="mobile-menu__item">Agencja</li>
+						<li class="mobile-menu__item">Portfolio</li>
+						<li class="mobile-menu__item">Kontakt</li>
+					</ul>
+			</nav>
 		</header>
 		<main>
+			
 			<!-- Hero -->
 			<section class="hero">
 				<div class="container">
