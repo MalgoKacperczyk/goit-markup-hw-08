@@ -85,6 +85,9 @@
 	font-weight: 500;
 	line-height: 1.17;
 }
+.mobile-menu__mail-link:hover .mobile-menu__mail-link:focus {
+	color: $accent-color;
+}
 .mobile-menu__list {
 	margin-bottom: 302px;
 }
