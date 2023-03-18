@@ -48,17 +48,3 @@
 		opacity: 1;
 	}
 }
-
-.button__modal--close {
-	position: absolute;
-	top: 8px;
-	left: 490px;
-	cursor: pointer;
-	width: 30px;
-	height: 30px;
-	border: 1px;
-	border-color: $modal-button-border-color;
-	border-style: solid;
-	border-radius: 50%;
-	background-color: $background-color;
-}

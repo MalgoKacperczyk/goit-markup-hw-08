@@ -55,6 +55,13 @@
 							</a>
 						</li>
 				</ul>
+				<div class="mobile-menu">
+				<button class="mobile-menu__button" type="button">
+					<svg class="mobile-menu__icon">
+						<use href="./images/icons.svg#icon-menu_40px"></use>
+					</svg>
+				</button>
+				</div>
 		</header>
 		<main>
 			<!-- Hero -->
@@ -64,7 +71,11 @@
 					<button data-modal-open type="button" class=" button hero__button">Zamów usługe</button>
 					<div data-modal class="hero__backdrop is-hidden">
 						<div class="hero__modal">
-							<button data-modal-close type="button" class="button__modal--close">&#10006;</button>
+							<button data-modal-close type="button" class="button__modal--close">
+								<svg class="button__modal--close-icon">
+									<use href="./images/icons.svg#icon-close-black-18dp-2-1"></use>
+								</svg>
+							</button>
 							<p class="form__name">Zostaw swoje dane w formularzu poniżej</p>
 							<form name="order-form" autocomplete="off">
 								<label class="form__label">

@@ -1,0 +1,24 @@
+/* .mobile-menu {
+	@media screen and (min-width: 480px) {
+		display: none;
+	}
+} */
+.mobile-menu__button {
+	position: relative;
+	cursor: pointer;
+	width: 40px;
+	height: 40px;
+	border: none;
+	background-color: $background-color;
+}
+.mobile-menu__icon {
+	position: absolute;
+	transform: translateX(-50%) translateY(-50%);
+	cursor: pointer;
+	width: 40px;
+	height: 40px;
+}
+.mobile-menu__icon:hover,
+.mobile-menu__icon:focus {
+	fill: $accent-color;
+}
