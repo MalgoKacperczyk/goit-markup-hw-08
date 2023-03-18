@@ -1,0 +1,43 @@
+.page-header {
+	border-bottom: $header-underline-color solid 1px;
+
+	&__wrapper {
+		display: flex;
+		align-items: center;
+	}
+	&__logo {
+		padding-top: 24px;
+		padding-bottom: 25px;
+	}
+	&__contact {
+		display: flex;
+		margin-left: 345px;
+		gap: 30px;
+	}
+	&__link {
+		display: flex;
+		gap: 10px;
+		align-items: center;
+		justify-content: center;
+		color: $text-color-secondary;
+		letter-spacing: 0.02em;
+		font-weight: 500;
+		line-height: 1.14;
+		transition-duration: $transition-duration;
+		transition-property: color;
+		transition-timing-function: $transition-timing-function;
+	}
+	&__link:hover,
+	&__link:focus {
+		color: $accent-color;
+	}
+	&__icon {
+		width: 16px;
+		height: 16px;
+		fill: currentColor;
+	}
+	&__icon:hover,
+	&__icon:focus {
+		fill: $accent-color;
+	}
+}

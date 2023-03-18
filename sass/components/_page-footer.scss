@@ -1,0 +1,41 @@
+footer {
+	background-color: $background-color-footer;
+	padding-bottom: 60px;
+	padding-top: 60px;
+}
+.page-footer {
+	gap: 70px;
+	display: flex;
+	align-items: baseline;
+}
+.page-footer__contact {
+	margin-top: 20px;
+}
+.page-footer__item:not(:last-child) {
+	margin-bottom: 9px;
+}
+.page-footer__link {
+	color: $text-color-footer;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.7;
+	font-style: normal;
+	transition-duration: $transition-duration;
+	transition-property: color;
+	transition-timing-function: $transition-timing-function;
+}
+.page-footer__link:hover,
+.page-footer__link:focus {
+	color: $accent-color;
+}
+.page-footer__link-white {
+	color: $text-color-third;
+}
+.page-footer__join-us {
+	color: $text-color-third;
+	line-height: 1.17;
+	font-weight: 700;
+	font-size: 14px;
+	margin-bottom: 20px;
+	letter-spacing: 0.03em;
+}

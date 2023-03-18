@@ -1,0 +1,33 @@
+.what-we-do {
+	padding-bottom: 94px;
+}
+.what-we-do__title {
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.16;
+	text-align: center;
+	letter-spacing: 0.03em;
+}
+.what-we-do__list {
+	display: flex;
+	margin-top: 50px;
+	gap: 30px;
+	align-items: center;
+}
+.what-we-do__item {
+	position: relative;
+	z-index: -1;
+}
+.what-we-do__overlay {
+	color: $text-color-third;
+	font-weight: 700;
+	line-height: 1.14;
+	align-items: center;
+	justify-content: center;
+	width: 370px;
+	height: 70px;
+	background-color: $background-color-overlay-what-we-do;
+	position: absolute;
+	bottom: 0;
+	display: flex;
+}

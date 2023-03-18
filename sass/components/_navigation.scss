@@ -1,0 +1,24 @@
+.navigation {
+	margin-left: 93px;
+
+	&__list {
+		display: flex;
+		gap: 46px;
+	}
+	&__link {
+		display: block;
+		position: relative;
+		color: $text-color-main;
+		letter-spacing: 0.02em;
+		font-weight: 500;
+		line-height: 1.14;
+		font-size: 14px;
+		transition-duration: $transition-duration;
+		transition-property: color;
+		transition-timing-function: $transition-timing-function;
+	}
+	&__link:hover,
+	&__link:focus {
+		color: $accent-color;
+	}
+}

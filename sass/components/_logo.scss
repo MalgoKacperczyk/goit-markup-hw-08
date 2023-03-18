@@ -1,0 +1,17 @@
+.logo {
+	font-family: $font-alternative;
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 1.19;
+	word-spacing: -6px;
+
+	&__item--left {
+		color: $logo-color-second;
+	}
+	&__item--right-footer {
+		color: $logo-color-third;
+	}
+	&__item--right-header {
+		color: $logo-color;
+	}
+}

@@ -1,0 +1,108 @@
+.form__name {
+	margin-bottom: 12px;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 1.17;
+}
+.form__label {
+	display: block;
+	position: relative;
+	margin-bottom: 10px;
+}
+.form__text {
+	display: flex;
+	margin-bottom: 4px;
+	letter-spacing: 0.01em;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 1.17;
+	color: $text-color-secondary;
+}
+.form__content {
+	outline: none;
+	width: 100%;
+	height: 40px;
+	padding-left: 42px;
+	border-radius: 4px;
+	border: 1px solid;
+	border-color: $border-color-form-content;
+	transition-duration: $transition-duration;
+	transition-property: border-color;
+	transition-timing-function: $transition-timing-function;
+}
+.form__icon {
+	width: 18px;
+	height: 18px;
+	position: absolute;
+	top: 50%;
+	left: 12px;
+	transition-duration: $transition-duration;
+	transition-property: fill;
+	transition-timing-function: $transition-timing-function;
+}
+.form__content:hover,
+.form__content:focus {
+	outline: none;
+	border-color: $accent-color;
+}
+.form__content:hover + .form__icon,
+.form__content:focus + .form__icon {
+	fill: $accent-color;
+}
+.form__textarea-content {
+	outline: none;
+	width: 448px;
+	padding-left: 16px;
+	padding-top: 12px;
+	border-radius: 4px;
+	border: 1px solid;
+	border-color: $form-textarea-content-color;
+	transition-duration: $transition-duration;
+	transition-property: border-color;
+	transition-timing-function: $transition-timing-function;
+}
+.form__textarea {
+	margin-bottom: 20px;
+	display: inline-block;
+	position: relative;
+}
+.form__textarea-content:hover,
+.form__textarea-content:focus {
+	border-color: $accent-color;
+}
+.form__textarea-content::placeholder {
+	color: $form-textarea-content-color;
+}
+.form__checkbox {
+	width: 100%;
+	display: inline;
+	position: relative;
+}
+.form__checkbox-icon {
+	width: 16px;
+	height: 15px;
+	position: absolute;
+	top: 0;
+	left: -3px;
+	cursor: pointer;
+	visibility: hidden;
+}
+.form__checkbox-content {
+	cursor: pointer;
+}
+.form__checkbox-content:checked ~ .form__checkbox-icon {
+	visibility: visible;
+}
+.form__checkbox-link {
+	font-weight: 400;
+	letter-spacing: 0.03;
+	line-height: 1.17;
+	color: $accent-color;
+	text-decoration: underline;
+}
+.form__checkbox-text {
+	font-weight: 400;
+	letter-spacing: 0.03;
+	line-height: 1.17;
+	color: $text-color-secondary;
+}

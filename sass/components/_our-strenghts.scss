@@ -1,0 +1,31 @@
+.our-strenghts__list {
+	display: flex;
+	gap: 30px;
+}
+.our-strenghts__item {
+	display: flex;
+	background-color: $bacground-color-filter-button;
+	border-radius: 4px;
+	align-items: center;
+	justify-content: center;
+	height: 120px;
+	margin-bottom: 30px;
+}
+.our-strenghts__icon {
+	width: 70px;
+	height: 70px;
+}
+.our-strenghts__title {
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 1.19;
+	letter-spacing: 0.03em;
+}
+.our-strenght__text {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.71;
+	color: $text-color-secondary;
+	letter-spacing: 0.03em;
+	margin-top: 10px;
+}
