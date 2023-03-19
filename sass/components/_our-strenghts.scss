@@ -1,6 +1,5 @@
 .our-strenghts__list {
-	display: flex;
-	gap: 30px;
+	display: block;
 }
 .our-strenghts__item {
 	display: flex;
@@ -16,16 +15,33 @@
 	height: 70px;
 }
 .our-strenghts__title {
+	display: flex;
+	justify-content: center;
 	font-weight: 700;
 	font-size: 14px;
 	line-height: 1.19;
 	letter-spacing: 0.03em;
 }
-.our-strenght__text {
+.our-strenghts__text {
 	font-weight: 400;
 	font-size: 14px;
 	line-height: 1.71;
 	color: $text-color-secondary;
 	letter-spacing: 0.03em;
 	margin-top: 10px;
+}
+/* @media screen and (min-width: 481px) {
+	.our-strenghts__list {
+		display: flex;
+		gap: 30px;
+	}
+} */
+@media screen and (min-width: 769px) {
+	.our-strenghts__list {
+		display: flex;
+		gap: 30px;
+	}
+	.our-strenghts__title {
+		display: block;
+	}
 }

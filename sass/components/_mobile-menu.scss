@@ -5,6 +5,7 @@
 	height: 40px;
 	border: none;
 	background-color: $background-color;
+	margin-left: 270px;
 
 	@media screen and (min-width: 480px) {
 		display: none;
@@ -49,7 +50,7 @@
 }
 .mobile-menu__container.is-open {
 	background-color: $background-color;
-	width: 100%;
+	max-width: 480px;
 	padding: 40px 48px;
 	top: 50%;
 	left: 50%;

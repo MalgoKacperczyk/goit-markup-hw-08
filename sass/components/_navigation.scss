@@ -1,5 +1,5 @@
 .navigation {
-	margin-left: 93px;
+	margin-left: 83px;
 
 	&__list {
 		display: flex;
@@ -23,5 +23,15 @@
 	}
 	@media screen and (max-width: 480px) {
 		display: none;
+	}
+}
+@media screen and (min-width: 481px) {
+	.navigation {
+		margin-left: 83px;
+	}
+}
+@media screen and (min-width: 769px) {
+	.navigation {
+		margin-left: 93px;
 	}
 }

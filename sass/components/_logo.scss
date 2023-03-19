@@ -15,8 +15,9 @@
 		color: $logo-color;
 	}
 }
-@include mq(tablet) {
+@media screen and (min-width: 769px) {
 	.logo {
 		font-size: 26px;
+		line-height: 1.19;
 	}
 }
