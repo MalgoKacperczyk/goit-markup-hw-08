@@ -16,7 +16,6 @@
 	display: block;
 	margin-top: 50px;
 	align-items: center;
-	gap: 30px;
 }
 .our-team__item {
 	background-color: $background-color;
@@ -40,9 +39,22 @@
 	letter-spacing: 0.03em;
 	margin-top: 10px;
 }
+@media screen and (min-width: 481px) {
+	.our-team__list {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		gap: 24px;
+	}
+	.our-team__img {
+		width: 354px;
+		height: 374px;
+	}
+}
 @media screen and (min-width: 769px) {
 	.our-team__list {
 		display: flex;
+		flex-wrap: nowrap;
 		margin-top: 50px;
 		align-items: center;
 		gap: 30px;

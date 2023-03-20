@@ -257,7 +257,8 @@
 					<ul class="our-team__list">
 						<li class="our-team__item">
 							<img class="our-team__img"
-								src="./images/our_team/john_doe_img1.jpg"
+								src="./images/our_team/john_doe1_img.jpg"
+								srcset="john_doe1_img.jpg 2x"
 								alt="brunet w okularach z broda w bordowej koszuli"
 							/>
 							<div class="our-team__content">
@@ -297,7 +298,8 @@
 						</li>
 						<li class="our-team__item">
 							<img class="our-team__img" 
-							src="./images/our_team/john_doe_img2.jpg" 
+							src="./images/our_team/john_doe2_img.jpg"
+								srcset="john_doe2_img.jpg 2x" 
 							alt="blondynka w okularach"/>
 							<div class="our-team__content">
 								<h3 class="our-team__name">John Doe</h3>
@@ -336,7 +338,8 @@
 						</li>
 						<li class="our-team__item">
 							<img class="our-team__img"
-								src="./images/our_team/john_doe_img3.jpg"
+								src="./images/our_team/john_doe3_img.jpg"
+								srcset="john_doe3_img.jpg 2x"
 								alt="usmiechniety szatyn w jasnej koszuli"
 							/>
 							<div class="our-team__content">
@@ -376,7 +379,8 @@
 						</li>
 						<li class="our-team__item">
 							<img class="our-team__img"
-								src="./images/our_team/john_doe_img4.jpg"
+								src="./images/our_team/john_doe4_img.jpg"
+								srcset="john_doe4_img.jpg 2x"
 								alt="brunet w okularach w czarnym t-shircie"
 							/>
 							<div class="our-team__content">
@@ -471,6 +475,7 @@
 		</main>
 		<footer>
 			<div class="container page-footer">
+				<div class="page-footer__wrapper">
 				<div>
 					<a href="/index.html" class="logo logo__footer">
 						<span class="logo__item--left">Web</span>
@@ -527,11 +532,12 @@
 						</li>
 					</ul>
 				</div>
-				<form class ="newsletter__form" name="newsletter-signup" autocomplete="off" novalidate>
+				</div>
+				<form name="newsletter-signup" autocomplete="off" novalidate>
 					<p class="newsletter">ZAPISZ SIĘ DO NEWSLETTERA</p>
 					<label class="newsletter__label">
 						<input class="newsletter__input" type="email" name="email" placeholder="E-mail" />
-						<button class=" button newsletter__button newsletter__button--mobile" type="submit">
+						<button class=" button newsletter__button" type="submit">
 							Zapisz się
 							<svg class="newsletter__icon">
 								<use href="./images/icons.svg#icon-icon-send"></use>

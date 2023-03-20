@@ -4,8 +4,7 @@ footer {
 	padding-top: 60px;
 }
 .page-footer {
-	display: flex;
-	flex-direction: column;
+	display: block;
 }
 .page-footer__contact {
 	display: flex;
@@ -45,6 +44,17 @@ footer {
 	margin-bottom: 20px;
 	letter-spacing: 0.03em;
 }
+@media screen and (min-width: 481px) {
+	.page-footer__wrapper {
+		display: flex;
+		flex-direction: row;
+	}
+	.page-footer__contact {
+		margin-left: 76px;
+		margin-right: 144px;
+	}
+}
+
 @media screen and (min-width: 769px) {
 	.page-footer {
 		gap: 70px;
@@ -62,5 +72,7 @@ footer {
 		justify-content: center;
 		margin-top: 20px;
 		margin-bottom: 0;
+		margin-left: 0;
+		margin-right: 70px;
 	}
 }

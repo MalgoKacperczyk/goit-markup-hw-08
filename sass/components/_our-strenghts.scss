@@ -30,18 +30,23 @@
 	letter-spacing: 0.03em;
 	margin-top: 10px;
 }
-/* @media screen and (min-width: 481px) {
+@media screen and (min-width: 481px) {
 	.our-strenghts__list {
 		display: flex;
-		gap: 30px;
-	}
-} */
-@media screen and (min-width: 769px) {
-	.our-strenghts__list {
-		display: flex;
-		gap: 30px;
+		flex-wrap: wrap;
+		gap: 26px;
 	}
 	.our-strenghts__title {
 		display: block;
+	}
+	.our-strenghts__wrapper {
+		width: 354px;
+	}
+}
+@media screen and (min-width: 769px) {
+	.our-strenghts__list {
+		display: flex;
+		flex-wrap: nowrap;
+		gap: 30px;
 	}
 }
