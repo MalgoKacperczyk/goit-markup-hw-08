@@ -22,7 +22,9 @@
 .newsletter__button {
 	padding: 10px 28px 10px 42px;
 	display: flex;
+	margin: 0 auto;
 }
+
 .filters__button {
 	color: $text-color-main;
 	background-color: $bacground-color-filter-button;
@@ -63,4 +65,11 @@
 .button__modal--close-icon:hover,
 .button__modal--close-icon:focus {
 	fill: $accent-color;
+}
+@media screen and (min-width: 769px) {
+	.newsletter__button {
+		padding: 10px 28px 10px 42px;
+		display: flex;
+		margin: 0;
+	}
 }

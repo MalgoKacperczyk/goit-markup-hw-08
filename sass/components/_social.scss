@@ -9,6 +9,7 @@
 }
 .social__list--footer {
 	margin-top: 20px;
+	margin-bottom: 60px;
 }
 .social__icon {
 	justify-content: center;
@@ -43,4 +44,10 @@
 }
 .social__icon-footer {
 	fill: $text-color-third;
+}
+@media screen and (min-width: 769px) {
+	.social__list--footer {
+		margin-top: 20px;
+		margin-bottom: 0;
+	}
 }
