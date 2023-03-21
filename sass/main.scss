@@ -16,6 +16,7 @@
 @import "./components/filters";
 @import "./components/mobile-menu";
 @import "./components/container";
+@import "./components/section";
 
 body {
 	font-family: $font-main;
@@ -79,10 +80,6 @@ textarea {
 	clip-path: inset(100%);
 	clip: rect(0 0 0 0);
 	overflow: hidden;
-}
-.section {
-	padding-top: 94px;
-	padding-bottom: 94px;
 }
 .is-hidden {
 	visibility: hidden;
