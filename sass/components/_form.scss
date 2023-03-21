@@ -51,7 +51,7 @@
 }
 .form__textarea-content {
 	outline: none;
-	width: 448px;
+	width: 100%;
 	padding-left: 16px;
 	padding-top: 12px;
 	border-radius: 4px;
@@ -63,7 +63,7 @@
 }
 .form__textarea {
 	margin-bottom: 20px;
-	display: inline-block;
+	display: block;
 	position: relative;
 }
 .form__textarea-content:hover,

@@ -41,13 +41,14 @@
 }
 .hero__modal {
 	background-color: $background-color;
-	/* width: 528px; */
+	max-width: 450px;
 	padding: 40px;
 	top: 50%;
 	left: 50%;
 	box-shadow: $box-shadow-main;
 	border-radius: 4px;
-	display: block;
+	display: flex;
+	flex-direction: column;
 	position: absolute;
 	visibility: visible;
 	transform: translateX(-50%) translateY(-50%) scale(1.05);
@@ -96,6 +97,6 @@
 	.hero__title {
 		font-size: 44px;
 		line-height: 1.36;
-		width: 696px;
+		max-width: 696px;
 	}
 }

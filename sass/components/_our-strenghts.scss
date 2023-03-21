@@ -39,8 +39,8 @@
 	.our-strenghts__title {
 		display: block;
 	}
-	.our-strenghts__wrapper {
-		width: 354px;
+	.our-strenghts__wrapper:not(:last-child) {
+		margin-bottom: 30px;
 	}
 }
 @media screen and (min-width: 769px) {
