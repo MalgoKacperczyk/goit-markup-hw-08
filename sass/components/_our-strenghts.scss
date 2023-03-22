@@ -1,5 +1,7 @@
 .our-strenghts__list {
-	display: block;
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
 }
 .our-strenghts__item {
 	display: flex;

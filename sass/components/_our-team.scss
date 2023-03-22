@@ -10,9 +10,10 @@
 	letter-spacing: 0.03em;
 }
 .our-team__list {
-	display: block;
+	display: flex;
+	flex-direction: column;
 	margin-top: 50px;
-	align-items: center;
+	gap: 30px;
 }
 .our-team__item {
 	background-color: $background-color;
