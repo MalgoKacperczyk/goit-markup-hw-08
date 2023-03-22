@@ -9,17 +9,18 @@
 }
 .our-clients__list {
 	display: flex;
+	flex-direction: row;
 	justify-content: center;
 	flex-wrap: wrap;
 	gap: 30px;
 }
 .our-clients__link {
 	color: $icon-color;
+	width: 210px;
+	height: 92px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	width: 200px;
-	height: 92px;
 	border: 1px solid currentColor;
 	border-radius: 4px;
 	transition-property: color;
@@ -35,15 +36,27 @@
 .our-clients__link:focus {
 	color: $accent-color;
 }
-
 @media screen and (min-width: 768px) {
 	.our-clients__list {
 		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		gap: 30px;
+	}
+	.our-clients__link {
+		max-width: 226px;
+		height: 92px;
+	}
+}
+@media screen and (min-width: 1200px) {
+	.our-clients__list {
+		display: flex;
+		flex-direction: row;
 		flex-wrap: nowrap;
 		gap: 30px;
 	}
 	.our-clients__link {
-		width: 170px;
+		max-width: 170px;
 		height: 92px;
 	}
 }

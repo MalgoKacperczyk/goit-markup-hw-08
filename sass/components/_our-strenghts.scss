@@ -32,22 +32,24 @@
 	letter-spacing: 0.03em;
 	margin-top: 10px;
 }
-@media screen and (min-width: 481px) {
+@media screen and (min-width: 768px) {
 	.our-strenghts__list {
 		display: flex;
+		flex-direction: row;
 		flex-wrap: wrap;
-		gap: 26px;
+		gap: 30px;
 	}
 	.our-strenghts__title {
 		display: block;
 	}
-	.our-strenghts__wrapper:not(:last-child) {
-		margin-bottom: 30px;
+	.our-strenghts__wrapper {
+		width: 354px;
 	}
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 1200px) {
 	.our-strenghts__list {
 		display: flex;
+		flex-direction: row;
 		flex-wrap: nowrap;
 		gap: 30px;
 	}

@@ -20,13 +20,12 @@
 	display: flex;
 	justify-content: center;
 }
-@media screen and (min-width: 481px) {
+@media screen and (min-width: 768px) {
 	.logo__footer {
 		display: flex;
-		margin: 0 auto;
 	}
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 1200px) {
 	.logo {
 		font-size: 26px;
 		line-height: 1.19;
